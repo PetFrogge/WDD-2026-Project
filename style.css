@@ -1,0 +1,143 @@
+/* style.css -n Group N */
+
+:root {
+  /* Accent (buttons, icons, details) */
+  --color-accent: #BF8B2E;      /* SDG 12 gold */
+
+  /* Gold links and text */
+  --color-gold-dark: #8A6420;   /* Dark gold */
+
+  /* Header, footer, headings */
+  --color-green-dark: #2F4F3A;  /* Dark green */
+
+  /* Backgrounds */
+  --color-bg: #F5EFE3;          /* Light beige - page background */
+  --color-card-bg: #F3E6CC;     /* Very light gold - card background */
+  --color-section-alt: #FFFFFF; /* White - alternating sections */
+
+  /* Main text */
+  --color-text: #1F2A24;        /* Greenish near-black */
+}
+
+/* Fonts Poppins and Open sans */
+
+
+/* Heading, nav, buttons */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Body Text */
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+#header-img {
+	width: 100%;
+	display: block;
+
+}
+
+.nav-underline {
+	width: 100%;
+	font-size: 1.4rem;
+	gap: 50px;
+	justify-content: center;
+	padding: 20px;
+}
+
+.contain h2 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.donate-cards {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	gap: 100px;
+
+}
+
+
+
+.card-img-top {
+	width: 200px;
+}
+
+.donate-cards .card {
+  	max-width: 320px;
+}
+
+
+
+/* Donate Form */
+
+.form-suggest form {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 40px;
+}
+
+.donate-form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.donate-form textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.donate-form button {
+  align-self: flex-end;
+  padding: 8px 40px;
+  border-radius: 12px;
+}
+
+
+/* Footer */
+
+.footer {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  margin-top: 40px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer p {
+	margin: 0;
+}
+
+
+
