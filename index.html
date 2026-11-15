@@ -1,12 +1,14 @@
-<!--- Home Page by Sean (Irrelevant comment but SEAN IS JUST MY MIDDLE NAME CALL ME MICHAEL) --->
-<!--- DO NOT EDIT THE COMMENT ABOVE --->
+<!--- Home Page by Sean --->
+<!--- DO NOT EDIT THE COMMENT ABOVE I WILL FIND OUT. --->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>SDG 12 - Small Changes, Big Impact</title>
-		<!-- Google Fonts: Poppins & Open Sans -->
+		<!--- Bootstrap --->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+		<!--- Google Fonts --->
 		<link rel="preconnect" href="https://googleapis.com">
 		<link rel="preconnect" href="https://gstatic.com" crossorigin>
 		<link href="https://googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -14,83 +16,79 @@
 	</head>
 	<body>
 
-	<!-- Navigation -->
-	<header>
-		<nav class="nav-underline">
-			<a href="#home" class="active">Home</a>
-			<a href="#food-clothes">Food/Clothes</a>
-			<a href="#recycle">Recycle</a>
-			<a href="#donate">Donate</a>
-		</nav>
-	</header>
+		<!--- Navigation bar --->
+		<div class="nav-underline">
+			<a href="index.html">Home</a>
+			<a href="food-clothes.html">Food/Clothes</a>
+			<a href="recycle.html">Recycle</a>
+			<a href="donate.html">Donate</a>
+		</div>
 
-  <!-- Hero Section -->
-	<section id="home" class="hero">
-		<div class="hero-overlay">
+		<!--- Header banner --->
+		<div class="hero-banner">
 			<h1>Small changes, big impact</h1>
 		</div>
-	</section>
 
-	<!-- Introduction & What We Can Do -->
-	<main>
-		<section class="contain intro-section">
-			<p class="intro-text">
-				Welcome to our SDG 12 initiative. Discover simple, everyday actions to reduce waste and promote sustainable consumption.
+		<!--- Main content --->
+		<div class="contain">
+			<p class="intro">
+				Welcome to our website about SDG 12. Here you can learn easy ways to reduce waste and help the planet every day.
 			</p>
 
 			<h2>What we can do</h2>
 
+			<!--- 3 Cards --->
 			<div class="donate-cards">
-				<!-- card 1 -->
+
 				<div class="card">
-					<div class="icon-placeholder">Icon</div>
+					<div class="circle-img">Image</div>
 					<h3>Food/Clothes</h3>
-					<p>Reduce food waste and extend the life of your wardrobe through mindful habits.</p>
+					<p>Plan your meals and reuse old clothes so less goes into the bin.</p>
 				</div>
 
-				<!-- card 2 -->
 				<div class="card">
-					<div class="icon-placeholder">Icon</div>
+					<div class="circle-img">Image</div>
 					<h3>Recycle</h3>
-					<p>Learn how to properly sort materials to keep recyclables out of landfills.</p>
+					<p>Check the labels and put paper, plastic, and glass in the right bins.</p>
 				</div>
 
-				<!-- card 3 -->
-        <div class="card">
-          <div class="icon-placeholder">Icon</div>
+				<div class="card">
+					<div class="circle-img">Image</div>
 					<h3>Donate</h3>
-					<p>Give pre-loved items a second home and support local community initiatives.</p>
+					<p>Give clothes and items you do not need anymore to local charities.</p>
 				</div>
+
 			</div>
-		</section>
-
-				<!-- did you know  -->
-				<section class="contain alt-section">
-			<h2>Did you know?</h2>
-			<div class="fact-box">
-				<p><strong>Little fact:</strong> Roughly one-third of all food produced globally for human consumption is lost or wasted every year.</p>
-			</div>
-		</section>
-
-		<!-- call to action -->
-		<section class="contain cta-section">
-			<h2>Ready to make a difference</h2>
-			<a href="#donate" class="btn-primary">Find a charity (THIS DOES NOTHING AS OF NOW)</a>
-		</section>
-	</main>
-
-	<!--this is my footer-->
-	<footer class="footer">
-		<div class="footer-links">
-			<a href="#home">Home</a>
-			<a href="#food-clothes">Food &amp; Clothes</a>
-			<a href="#recycle">Recycle</a>
-			<a href="#donate">Donate</a>
 		</div>
-		<p>This page was created by Ana Cirone</p>
-		<p>&copy; 2026 Ana Clara, Valentina Cuellar, Akhenaton Baswala, Sean Coleman</p>
-		<p>NCI Web Design &amp; Development Project SDG 12</p>
-	</footer>
+
+		<!--- This will be "did you know" --->
+		<div class="contain white-section">
+			<h2>Did you know?</h2>
+			<div class="fact-card">
+				<p>Around one third of all food made in the world gets wasted every year!</p>
+			</div>
+		</div>
+
+		<!-- Call to action -->
+		<div class="contain">
+			<h2>Ready to make a difference</h2>
+			<br>
+			<a href="donate.html">Find a charity</a>
+		</div>
+
+	<!--- Footer --->
+		<div class="footer">
+			<p>
+				<a href="index.html">Home</a> |
+				<a href="food-clothes.html">Food and Clothes</a> |
+				<a href="recycle.html">Recycle</a> |
+			<a href="donate.html">Donate</a>
+			</p>
+			<br>
+			<p>This page was created by Ana Cirone</p>
+			<p> 2026 Ana Clara, Valentina Cuellar, Akhenaton Baswala, Sean Coleman</p>
+			<p>NCI Web Design Development Project SDG 12</p>
+		</div>
 
 	</body>
 </html>
